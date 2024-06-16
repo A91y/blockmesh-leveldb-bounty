@@ -4,6 +4,9 @@
     "version": "1.0",
     "description": "A simple hello world Chrome extension that stores a value",
     "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
     "background": {
       "service_worker": "background.js"
     }
